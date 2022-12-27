@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
+  <title>DB University</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,7 +20,7 @@
     <ol>
       <li>Q1: SELECT * FROM `students` WHERE YEAR(`date_of_birth`) = 1990;</li>
       <li>Q2: SELECT * FROM `courses` WHERE `cfu` > 10;</li>
-      <li>Q3: </li>
+      <li>Q3: SELECT *, TIMESTAMPDIFF(YEAR, `date_of_birth`, NOW()) AS Age FROM `students` WHERE TIMESTAMPDIFF(YEAR, `date_of_birth`, NOW()) > 30;</li>
       <li>Q4: </li>
       <li>Q5: </li>
       <li>Q6: </li>
