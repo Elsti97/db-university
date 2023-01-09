@@ -19,7 +19,7 @@
   <main>
     <ol>
       <li>SELECT students.* FROM `students` JOIN `degrees` ON `students`.`degree_id` = `degrees`.`id` WHERE `degrees`.`name` = 'Corso di Laurea in Economia';</li>
-      <li></li>
+      <li>SELECT degrees.* FROM degrees JOIN departments ON departments.id = degrees.department_id WHERE departments.name = 'Dipartimento di Neuroscienze' AND degrees.level = 'magistrale';</li>
       <li></li>
       <li></li>
       <li></li>
